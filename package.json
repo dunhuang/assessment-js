@@ -1,0 +1,34 @@
+{
+  "author": {
+    "name": "Console Connect"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jest": "^24.7.1"
+  },
+  "deprecated": false,
+  "description": "JS Assessment",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "prettier-eslint": "^8.8.1"
+  },
+  "engines": {
+    "node": "^10.0.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/__helpers__/"
+    ]
+  },
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@console/assessment-js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "version": "2.0.2"
+}
